@@ -6,6 +6,7 @@ function App() {
     <>
       <div>
         <img src={rgLogo} className="logo" />
+        <div className="links"><a href="https://github.com/ragusa-dev">github</a></div> 
       </div>
     </>
   )
