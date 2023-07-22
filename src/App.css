@@ -19,7 +19,7 @@
   position: fixed;
   bottom: 0;
   right: 0;
-  padding:30px
+  padding: 37px
 }
 
 @keyframes logo-spin {
@@ -44,4 +44,23 @@
 
 .read-the-docs {
   color: #888;
+}
+
+.headline {
+  font-size: 120px;
+  line-height: 120px;
+  text-align: left;
+  position: fixed;
+  padding-right: 25%;
+  top: 25px;
+  left: 30px;
+}
+
+@media (max-width: 767px) {
+  .headline {
+    font-size: 60px;
+    line-height: 60px;
+    top: 25px;
+    left: 30px;
+  }
 }
